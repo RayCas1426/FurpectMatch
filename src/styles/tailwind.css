@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /*------Color variables */
+    --black_900: #0c0c0c;
+    --black_900_01: #090606;
+    --black_900_02: #000000;
+    --black_900_07: #00000007;
+    --black_900_3f: #0000003f;
+    --black_900_7a: #0000007a;
+    --black_900_7f: #0000007f;
+    --black_900_cc: #000000cc;
+    --blue_gray_400: #868686;
+    --deep_purple_100: #d4d4ec;
+    --deep_purple_100_01: #d5d1f0;
+    --deep_purple_50: #eae8f7;
+    --deep_purple_500: #5d4fc4;
+    --deep_purple_600: #4f40bf;
+    --gray_100: #f4f4fb;
+    --gray_200: #ededed;
+    --gray_300: #dfdfdf;
+    --gray_400: #cacaca;
+    --gray_50: #f9f9f9;
+    --gray_500: #9d9b9b;
+    --gray_50_01: #f7fcff;
+    --gray_50_02: #f8f9fa;
+    --gray_50_03: #fafafd;
+    --gray_600: #717171;
+    --gray_600_01: #6c757d;
+    --gray_700: #606060;
+    --gray_800: #404040;
+    --gray_900: #202020;
+    --gray_900_01: #212121;
+    --indigo_200: #9990da;
+    --indigo_400: #675bc8;
+    --indigo_900: #2e256f;
+    --red_a700: #ff0000;
+    --teal_900: #0a453a;
+    --white_a700: #ffffff;
+    --white_a700_f2: #fffffff2;
+
+    /*------Shadow variables */
+    --shadow-xs: 0 16px 12px 0 #00000007;
+
+    /*------Border radius variables */
+    --radius-xs: 1px;
+    --radius-sm: 3px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+    --radius-2x1: 16px;
+    --radius-3x1: 20px;
+    --radius-4xl: 24px;
+    --radius-5xl: 40px;
+    --radius-6xl: 46px;
+    --radius-7xl: 48px;
+    --radius-8x1: 64px;
+
+    /*------Spacing variables------ */
+    --space-xs: 4px;
+    --space-sm: 6px;
+    --space-md: 8px;
+    --space-lg: 9px;
+    --space-xl: 10px;
+    --space-2x1: 12px;
+    --space-3x1: 14px;
+    --space-4x1: 16px;
+    --space-5x1: 20px;
+    --space-6xl: 22px;
+    --space-7x1: 24px;
+    --space-8x1: 32px;
+    --space-9x1: 34px;
+    --space-10x1: 40px;
+    --space-11x1: 50px;
+    --space-12x1: 54px;
+    --space-13x1: 68px;
+    --space-14xl: 72px;
+    --space-15x1: 168px;
+  }
+}
+@layer components {
+    .container-xs {
+      @apply w-full mx-auto max-w-[1296px];
+    }
+  }
+  
+

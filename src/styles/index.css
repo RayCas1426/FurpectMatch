@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    box-sizing: border-box;
+    line-height: normal;
+    font-family: inherit;
+    margin: unset;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+ul {
+    margin: 0;
+    margin-inline: unset !important;
+    padding: 0;
+    list-style: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker-wrapper input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.react-datepicker-popper {
+    z-index: 100000 !important;
+}
+
+input {
+    background-color: transparent;
+    width: 100%;
+}
+
+vaccination { 
+    th:first-child {
+        border-top-left-radius: 16px;
+    }
+    th:last-child {
+        border-top-right-radius: 16px;
+    }
+}
+
+table {
+    table-layout: fixed;
+}
